@@ -32,3 +32,8 @@ C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\obj\Debug\net8.0\Demo
 C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\obj\Debug\net8.0\Demo.genruntimeconfig.cache
 C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\obj\Debug\net8.0\ref\Demo.dll
 C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\obj\Debug\net8.0\Demo.sourcelink.json
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\bin\Debug\net8.0\Elasticsearch.Net.dll
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\bin\Debug\net8.0\Nest.dll
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Demo\bin\Debug\net8.0\Infrastructure.pdb
