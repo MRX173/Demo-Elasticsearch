@@ -16,3 +16,5 @@ C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\infrastructure\bin\Debug\n
 C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\infrastructure\bin\Debug\net8.0\Domain.pdb
 C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CopyComplete
 C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\mohamed samir\RiderProjects\Demo-Elastic\src\Infrastructure\bin\Debug\net8.0\Application.pdb

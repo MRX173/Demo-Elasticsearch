@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jsmh2iBXirQ=",
+  "dgSpecHash": "bUAJki3tOOKJ50fQSHwjnvP2I3x2CbZzvztINIDBkcC17wP/FDYWjsx40sSwVTM6fEiyCG9LSDDe3i9rAsyuFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohamed samir\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\mohamed samir\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",

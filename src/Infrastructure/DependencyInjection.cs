@@ -1,4 +1,6 @@
+using Application.Abstract;
 using Infrastructure;
+using Infrastructure.Elasticsearch.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +15,7 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"))
         );
+        services.AddScoped<IElasticsearchService, ElasticsearchService>();
         return services;
     }
 }

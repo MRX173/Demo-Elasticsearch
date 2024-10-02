@@ -8,9 +8,15 @@ namespace Infrastructure.Repositories
     {
         private readonly ApplicationDbContext _ctx;
 
+        public PostRepository(ApplicationDbContext ctx)
+        {
+            _ctx = ctx;
+        }
+
         public async Task<Post> AddAsync(Post post)
         {
             await _ctx.Post.AddAsync(post);
+            await _ctx.SaveChangesAsync();
             return post;
         }
 
@@ -18,9 +24,10 @@ namespace Infrastructure.Repositories
         {
             var post = await GetByIdAsync(id);
             _ctx.Post.Remove(post);
+            await _ctx.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Post>> GetAllAsync()
+        public async Task<List<Post>> GetAllAsync()
         {
             return await _ctx.Post.ToListAsync();
         }
@@ -30,10 +37,10 @@ namespace Infrastructure.Repositories
             return await _ctx.Post.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public Task UpdateAsync(Post post)
+        public async Task UpdateAsync(Post post)
         {
             _ctx.Post.Update(post);
-            return Task.CompletedTask;
+            await _ctx.SaveChangesAsync();
         }
     }
 }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Demo\\Demo.csproj": {}
+    "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\demo\\Demo.csproj": {}
   },
   "projects": {
     "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Application\\Application.csproj": {
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Demo\\Demo.csproj": {
+    "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Demo\\Demo.csproj",
+        "projectPath": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\mohamed samir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\Demo\\obj\\",
+        "outputPath": "C:\\Users\\mohamed samir\\RiderProjects\\Demo-Elastic\\src\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohamed samir\\AppData\\Roaming\\NuGet\\NuGet.Config",
