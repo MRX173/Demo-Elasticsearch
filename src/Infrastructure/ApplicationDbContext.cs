@@ -13,7 +13,7 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(
-                "Host=localhost;Database=Demo-Elastic;Username=postgres;Password=MoHaM312#@@#"
+                "Host=localhost;Database=Demo-Elastic;Username=postgres;Password=postgres"
             );
         }
     }
